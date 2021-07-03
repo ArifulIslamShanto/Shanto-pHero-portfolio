@@ -16,7 +16,7 @@ p{
     color:orange;
     font-weight: bolder;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -30,13 +30,13 @@ section{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    color: whitesmoke;
+    color: white;
     text-align: center;
     padding: 10px 40px;
     border-radius: 10px;
     font-size: 15px;
-    font-weight: bold;
 
+    height: 20px;
 }
 
 .top-banner{
@@ -59,11 +59,67 @@ h2{
 .dream a{
 
     margin-left: 25%;
-
 }
 
 .dream{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-top: 150px;
+}
+.half-width2 blockquote{
+    font-size: 20px;
+}
+#big{
+    margin-left: 250px;
+}
+.thirty-width{
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 10px 10px 15px black;
+    margin-bottom: 10%;
+    padding-left: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.orange-color{
+    color:orange;
+    font-weight: bolder;
+}
+.thirty-width h2{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.thirty-width h6{
+    font-size: 20px;
+}
+
+.thirty-width h4{
+    font-size: 30px;
+}
+.education{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#edu-border3{
+    border-left: 10px solid;
+    border-image: linear-gradient(black, whitesmoke);
+    border-image-slice: 1;
+}
+footer{background-color: black;
+    text-align: center;
+    color: white;
+    position:static;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    height: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: lavenderblush;
 }
