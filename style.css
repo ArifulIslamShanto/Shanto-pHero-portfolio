@@ -58,7 +58,7 @@ h2{
 }
 .dream a{
 
-    margin-left: 25%;
+    margin-left: 30%;
 }
 
 .dream{
@@ -123,3 +123,55 @@ footer a{
     text-decoration: none;
     color: lavenderblush;
 }
+.navber a{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 100px 10px 100px;
+    margin: auto;
+    color:black;    
+    border-radius: 10px;
+    overflow: hidden;
+}
+.navber nav{
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+    position: sticky;
+}
+.navber nav a:hover{
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    transition: 0.5s;
+    padding: auto;
+}
+.project-container{
+    display: flex;
+}
+.pro-thirty-width{
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 10px 10px 15px black;
+    margin-bottom: 10%;
+    padding-left: 15px;
+    padding-left: 15px;
+    border-radius: 100px;
+}
+.pro-thirty-width h2{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.pro-thirty-width p{
+    font-style: normal;
+    font-size: 17px;
+   
+}
+
+.pro-thirty-width a{
+    text-decoration: none;
+    margin-left: 42%;
+    color: tomato;
+
+}
+   
