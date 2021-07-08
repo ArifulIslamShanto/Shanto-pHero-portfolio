@@ -110,18 +110,19 @@ h2{
     border-image: linear-gradient(black, whitesmoke);
     border-image-slice: 1;
 }
-footer{background-color: black;
+footer{
+    background-color: white;
     text-align: center;
-    color: white;
+    color: black;
     position:static;
     bottom: 0;
     width: 100%;
-    font-size: 12px;
-    height: 50px;
+    font-size: 10px;
+    height: 20px;
 }
 footer a{
     text-decoration: none;
-    color: lavenderblush;
+    color: black;
 }
 .navber a{
     text-decoration: none;
@@ -174,4 +175,11 @@ footer a{
     color: tomato;
 
 }
-   
+.fab{
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+}
+.fab:hover{
+    color:rgb(42, 92, 255);
+}
