@@ -35,8 +35,13 @@ p{
     padding: 10px 40px;
     border-radius: 10px;
     font-size: 15px;
-
     height: 20px;
+}
+.link-button:hover{
+    font-size: 18px;
+    padding: 15px 45px;
+    transition: padding 0.5s ease-in-out;
+    box-shadow: 1px 1px 5px orangered;
 }
 
 .top-banner{
@@ -182,4 +187,5 @@ footer a{
 }
 .fab:hover{
     color:rgb(42, 92, 255);
+    transition: 0.5s;
 }
